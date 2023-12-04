@@ -1,3 +1,7 @@
+/* Created by:
+ * Angelo John Benedict Laus - CPE231
+ * December 12, 2023 */
+
 public class BuildingFloor {
 
     double totalFloorArea;
