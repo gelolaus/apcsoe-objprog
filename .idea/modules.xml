@@ -5,11 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/Learning/Car/Car.iml" filepath="$PROJECT_DIR$/Learning/Car/Car.iml" />
       <module fileurl="file://$PROJECT_DIR$/Date/Date.iml" filepath="$PROJECT_DIR$/Date/Date.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learning/Espresso/Espresso.iml" filepath="$PROJECT_DIR$/Learning/Espresso/Espresso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.1/Laus_Activity1.1.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.1/Laus_Activity1.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.2/Laus_Activity1.2.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.2/Laus_Activity1.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.3/Laus_Activity1.3.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.3/Laus_Activity1.3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_DrillActivity1.1/Laus_DrillActivity1.1.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_DrillActivity1.1/Laus_DrillActivity1.1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyWindow/MyWindow.iml" filepath="$PROJECT_DIR$/MyWindow/MyWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.1/Laus_Activity3.1.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.1/Laus_Activity3.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.2/Laus_Activity3.2.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.2/Laus_Activity3.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.3/Laus_Activity3.3.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity3.3/Laus_Activity3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_DrillActivity3.1/Laus_DrillActivity3.1.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_DrillActivity3.1/Laus_DrillActivity3.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning/MyWindow/MyWindow.iml" filepath="$PROJECT_DIR$/Learning/MyWindow/MyWindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/Scanner/Scanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/apcsoe-objprog.iml" filepath="$PROJECT_DIR$/.idea/apcsoe-objprog.iml" />
     </modules>
   </component>
