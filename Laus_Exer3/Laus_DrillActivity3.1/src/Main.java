@@ -9,13 +9,13 @@ public class Main {
         System.out.println("\nBuilding Floor\n");
 
         BuildingFloor BF8 = new BuildingFloor(1,
-                1,
-                1,
+                10,
+                30,
                 "White");
 
         BuildingFloor BF3 = new BuildingFloor(2,
-                2,
-                2,
+                20,
+                30,
                 "Black");
 
         System.out.println("\t\tEIGHT FLOOR\t\t");
