@@ -12,6 +12,8 @@ public class Main {
 
         myWindow.setResizable(false);
         myWindow.setAlwaysOnTop(true);
+
+
     }
 
 }
