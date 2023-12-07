@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Car/Car.iml" filepath="$PROJECT_DIR$/Car/Car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning/Car/Car.iml" filepath="$PROJECT_DIR$/Learning/Car/Car.iml" />
       <module fileurl="file://$PROJECT_DIR$/Date/Date.iml" filepath="$PROJECT_DIR$/Date/Date.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Espresso/Espresso.iml" filepath="$PROJECT_DIR$/Espresso/Espresso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learning/Espresso/Espresso.iml" filepath="$PROJECT_DIR$/Learning/Espresso/Espresso.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.1/Laus_Activity1.1.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.1/Laus_Activity1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.2/Laus_Activity1.2.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.2/Laus_Activity1.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.3/Laus_Activity1.3.iml" filepath="$PROJECT_DIR$/Laus_Exer1/Laus_Activity1.3/Laus_Activity1.3.iml" />
