@@ -5,7 +5,7 @@ public class YourCashPanel {
 
     JPanel yourCashPanel;
     JLabel yourCashLabel;
-    float yourCash = 5000.00f;
+    Float yourCash = 5000.00f;
 
     public YourCashPanel() {
 
@@ -13,7 +13,8 @@ public class YourCashPanel {
         yourCashPanel.setLayout(new GridLayout(1,1));
         yourCashPanel.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEtchedBorder(), "Your Cash"));
 
-        yourCashLabel = new JLabel("" + yourCash);
+        yourCashLabel = new JLabel();
+        yourCashLabel.setText(Float.toString(yourCash));
         yourCashPanel.add(yourCashLabel);
 
     }

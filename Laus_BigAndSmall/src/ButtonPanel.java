@@ -14,6 +14,12 @@ public class ButtonPanel {
         JButton rollButton = new JButton("Roll");
         JButton exitButton = new JButton("Exit");
 
+        buttonPanel.add(rollButton);
+        buttonPanel.add(exitButton);
+
+        exitButton.addActionListener(e -> System.exit(0));
+
+
     }
 
 }

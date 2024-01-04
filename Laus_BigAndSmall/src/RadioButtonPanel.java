@@ -11,8 +11,8 @@ public class RadioButtonPanel {
         radioButtonPanel = new JPanel();
         radioButtonPanel.setLayout(new FlowLayout());
 
-        highButton = new JRadioButton("High");
-        lowButton = new JRadioButton("Low");
+        highButton = new JRadioButton("HIGH");
+        lowButton = new JRadioButton("LOW");
 
         ButtonGroup buttonGroup = new ButtonGroup();
         buttonGroup.add(highButton);

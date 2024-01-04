@@ -34,7 +34,17 @@ public class BigAndSmall {
         yourBetPanel = new YourBetPanel();
         yourBetPanel.yourBetPanel.setBounds(130,70,340,60);
         mainFrame.add(yourBetPanel.yourBetPanel);
+
+        winningBanner = new WinningBanner();
+        winningBanner.winningBanner.setBounds(10,130,480,40);
+        mainFrame.add(winningBanner.winningBanner);
+
+        buttonPanel = new ButtonPanel();
+        buttonPanel.buttonPanel.setBounds(0,160,500,40);
+        mainFrame.add(buttonPanel.buttonPanel);
+
         mainFrame.setVisible(true);
+
     }
 
     public static void main(String[] args) {
