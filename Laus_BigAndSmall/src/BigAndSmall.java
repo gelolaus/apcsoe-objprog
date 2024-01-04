@@ -5,7 +5,9 @@ public class BigAndSmall {
 
     JFrame mainFrame;
     ButtonPanel buttonPanel;
-    DicePanel dicePanel;
+    DicePanel dicePanel1;
+    DicePanel dicePanel2;
+    DicePanel dicePanel3;
     RadioButtonPanel radioButtonPanel;
     Randomizer randomizer;
     WinningBanner winningBanner;
@@ -42,6 +44,18 @@ public class BigAndSmall {
         buttonPanel = new ButtonPanel();
         buttonPanel.buttonPanel.setBounds(0,160,500,40);
         mainFrame.add(buttonPanel.buttonPanel);
+
+        dicePanel1 = new DicePanel();
+        dicePanel1.dicePanel.setBounds(10,200,150,150);
+        mainFrame.add(dicePanel1.dicePanel);
+
+        dicePanel2 = new DicePanel();
+        dicePanel2.dicePanel.setBounds(170,200,150,150);
+        mainFrame.add(dicePanel2.dicePanel);
+
+        dicePanel3 = new DicePanel();
+        dicePanel3.dicePanel.setBounds(330,200,150,150);
+        mainFrame.add(dicePanel3.dicePanel);
 
         mainFrame.setVisible(true);
 
