@@ -50,4 +50,13 @@ public class AnswerPanel {
 
     }
 
+    public void resetAll() {
+
+        this.label1.setForeground(Color.gray);
+        this.label2.setForeground(Color.gray);
+        this.label3.setForeground(Color.gray);
+        this.label4.setForeground(Color.gray);
+
+    }
+
 }

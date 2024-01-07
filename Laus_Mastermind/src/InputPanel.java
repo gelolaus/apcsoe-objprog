@@ -71,4 +71,17 @@ public class InputPanel {
 
     }
 
+    public void reset() {
+
+        this.guess1.setSelectedIndex(0);
+        this.guess2.setSelectedIndex(0);
+        this.guess3.setSelectedIndex(0);
+        this.guess4.setSelectedIndex(0);
+
+    }
+
+    public void resetAll() {
+
+    }
+
 }
