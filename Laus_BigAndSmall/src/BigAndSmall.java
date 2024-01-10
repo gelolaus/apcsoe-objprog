@@ -1,3 +1,8 @@
+/*
+ * Created by Angelo John Benedict Laus - CPE231
+ * January 4, 2024
+ */
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -77,18 +82,24 @@ public class BigAndSmall {
             int betAmount = Integer.parseInt(yourBetPanel.yourBetField.getText());
 
             if (total1 >= 11 && radioButtonPanel.highButton.isSelected()) {
-                winningBanner.L1.setText("Total roll is: " + total1 + ". GALING MO, You win!");
+                winningBanner.L1.setText("ROLL: " + total1 + ". GALING MO, You win!");
 
                 yourCashPanel.yourCashLabel.setText(Float.toString(yourCashPanel.yourCash += betAmount));
             } else if (total1 <= 10 && radioButtonPanel.lowButton.isSelected()) {
-                winningBanner.L1.setText("Total roll is: " + total1 + ". GALING MO, You win!");
+                winningBanner.L1.setText("ROLL: " + total1 + ". GALING MO, You win!");
                 yourCashPanel.yourCashLabel.setText(Float.toString(yourCashPanel.yourCash += betAmount));
 
             } else {
-                winningBanner.L1.setText("Total roll is: " + total1 + ". HAHAHAHA, You lose!");
+                winningBanner.L1.setText("ROLL: " + total1 + ". HAHAHAHA, You lose!");
                 yourCashPanel.yourCashLabel.setText(Float.toString(yourCashPanel.yourCash -= betAmount));
 
             }
+
+            if (yourCashPanel.yourCash <= 0) {
+                winningBanner.L1.setText("ROLL: " + total1 + ". No more money, you're poor! Game Over!");
+                buttonPanel.rollButton.setEnabled(false);
+            }
+
 
             if (randomizer.d1 == 1) {
                 dicePanel1.diceLabel.setIcon(dicePanel1.dice1);

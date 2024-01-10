@@ -1,3 +1,8 @@
+/*
+ * Created by Angelo John Benedict Laus - CPE231
+ * January 4, 2024
+ */
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,6 +18,7 @@ public class RadioButtonPanel {
 
         highButton = new JRadioButton("HIGH");
         lowButton = new JRadioButton("LOW");
+        lowButton.setSelected(true);
 
         ButtonGroup buttonGroup = new ButtonGroup();
         buttonGroup.add(highButton);

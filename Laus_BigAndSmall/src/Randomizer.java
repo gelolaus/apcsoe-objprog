@@ -1,3 +1,8 @@
+/*
+ * Created by Angelo John Benedict Laus - CPE231
+ * January 4, 2024
+ */
+
 import java.util.Random;
 
 public class Randomizer {
